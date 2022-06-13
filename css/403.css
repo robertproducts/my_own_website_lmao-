@@ -1,0 +1,18 @@
+@keyframes glitch {
+    0% {
+        text-shadow:5px 0 0 cyan, -5px 0 0 magenta;
+    }
+    50% {
+        text-shadow:5px 0 0 magenta, -5px 0 0 cyan;
+    }
+    100% {
+        text-shadow:5px 0 0 cyan, -5px 0 0 magenta;
+    }
+}
+
+.title {
+    font-size: 144px;
+    text-align: center;
+    font-weight: 900;
+    animation: glitch 0.125s steps(1) infinite;
+}

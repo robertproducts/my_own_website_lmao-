@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Привет, я Роберт, и это мой сайт! Жду в гости, просто нажми ссылку!">
+    <title>403 - cтраница временно недоступна</title>
+
+    <link rel="icon" href="src/favicon.webp">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/403.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-danger">
+    <nav id="navbar" class="row-flex bg-dark">
+        <div class="row-flex">
+            <a href="index.html">
+                <div class="navbar-brand row-flex">
+                    <img src="src/favicon.webp">
+                    <span>robertproducts</span>
+                </div>
+            </a>
+        </div>
+        <div id="default-navbar" class="navbar-items row-flex">
+            <a href="index.html"><span class="navbar-link">Главная</span></a>
+            <a href="blog.html"><span class="navbar-link">Блог</span></a>
+            <a href="download.html"><span class="navbar-link">Скачать</span></a>
+            <a href="https://vk.com/robertproducts" target="_blank"><img src="src/vk.png"></a>
+            <a href="https://t.me/robertproducts" target="_blank"><img src="src/telegram.png"></a>
+        </div>
+        <button id="mobile-navbar-btn" class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-navbar" aria-controls="mobile-navbar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule=" evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="mobile-navbar" aria-labelledby="mobile-navbar-lbl">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="mobile-navbar-lbl">Навигация</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="column-flex">
+                    <h5>По сайту</h5>
+                    <div class="navbar-items margin-block-mobile-nav column-flex">
+                        <a href="index.html"><span class="navbar-link">Главная</span></a>
+                        <a href="blog.html"><span class="navbar-link">Блог</span></a>
+                        <a href="download.html"><span class="navbar-link">Скачать</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="column-flex">
+        <p class="title">403</p>
+        <p style="font-size: 16px; text-align: center; font-weight: 900;">Страница временно недоступна! Обещаю, что скоро всё исправлю!</p>
+        <a href="index.html" style="text-align: center; color: #000;">На главную</a>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
